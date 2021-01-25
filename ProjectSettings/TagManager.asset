@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Room
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3696469015
+    locked: 0
+  - name: Player
+    uniqueID: 2760580077
+    locked: 0
+  - name: Door
+    uniqueID: 3999168973
     locked: 0
