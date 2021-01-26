@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class PlayerController : MonoBehaviour
     public float speed;
     Vector2 movement;
 
+    public RawImage rawImage;
+    bool isOpen;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -18,6 +22,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            isOpen = !isOpen;
+            rawImage.gameObject.SetActive(isOpen);
+        }
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 

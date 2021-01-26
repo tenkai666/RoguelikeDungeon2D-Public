@@ -5,7 +5,6 @@ public class CameraController : MonoBehaviour
     public static CameraController instance;
 
     public float speed;//相机移动速度
-
     public Transform target;//目标坐标
 
     private void Awake()
@@ -23,7 +22,8 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    public void ChangeTarget(Transform newTarget)//函数方法在Room中判断碰撞进入后调用
+    //函数方法在Room中判断碰撞进入后调用，新房间的坐标
+    public void ChangeTarget(Transform newTarget)
     {
         target = newTarget;
     }

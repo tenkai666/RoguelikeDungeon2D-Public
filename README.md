@@ -28,4 +28,6 @@ UP:  W OR UP
 DOWN:  S OR DOWN  
 LEFT:  A OR LEFT  
 RIGHT:  D OR RIGHT  
+MAP: M  
+EXIT: ALT+F4  
   
