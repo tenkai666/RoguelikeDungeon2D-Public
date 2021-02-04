@@ -20,7 +20,7 @@ https://elthen.itch.io/2d-pixel-art-dungeon-tileset
   
 https://elthen.itch.io/  
   
-Unity m_EditorVersion:  2020.1.14f1  
+Unity m_EditorVersion:  2020.2.3f1  
   
 Keyboard  
   
