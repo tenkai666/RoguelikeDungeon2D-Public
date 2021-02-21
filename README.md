@@ -20,14 +20,13 @@ https://elthen.itch.io/2d-pixel-art-dungeon-tileset
   
 https://elthen.itch.io/  
   
-Unity m_EditorVersion:  2020.2.3f1  
+Unity m_EditorVersion:  2020.2.5f1  
   
-Keyboard  
+KEYBOARD  
   
-UP:  W OR UP  
-DOWN:  S OR DOWN  
-LEFT:  A OR LEFT  
-RIGHT:  D OR RIGHT  
-MAP: M  
-EXIT: ALT+F4  
+UP: w or up  
+DOWN: s or down  
+LEFT: a or left  
+RIGHT: d or right  
+MAP: m  
   
